@@ -18,7 +18,7 @@ n = int(sim_time / dt)  # Number of simulation steps
 # We will define several sets of PID gains to compare their performance.
 # Each tuple is in the format (Kp, Ki, Kd, 'Name')
 tuning_sets = [
-    (-40.0, -2.0, -30.0, "Very Aggressive"),
+    (-40.0, -1.0, -20.0, "Very Aggressive"),
     (-10.0, -0.2, -50.0, "Aggressive"),
     (-4.0, -0.05, -40.0, "Balanced"),
     # (-2.0, -0.02, -20.0, "Conservative"),
